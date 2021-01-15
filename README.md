@@ -120,7 +120,7 @@
 /_----createClass component---deprecated-----
 var HelloWord=React.createClass({
 render: function(){
-return <h1>Hellow World</h1>
+return <h1>Hello World<//h1>
 }
 })_/
 
@@ -131,13 +131,13 @@ super(props);
 }
 
 render() {
-return <h1>Hellow World</h1>;
+return <h1>Hello World<//h1>;
 }
 }
 
 //Function Component
 function HelloWorld1(props) {
-return <h1>Hello World1</h1>;
+return <h1>Hello World1<//h1>;
 }
 
 //Arrow Function Component
